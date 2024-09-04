@@ -1,3 +1,5 @@
+# Fascist vs. Dictator
+
 A **fascist** and a **dictator** are related but distinct concepts, often overlapping in historical contexts.
 
 1. **Fascist**: This term refers to someone who adheres to **fascism**, an authoritarian political ideology

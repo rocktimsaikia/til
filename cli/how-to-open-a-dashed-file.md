@@ -1,3 +1,5 @@
+# How to open a dashed file?
+
 In order to open a special character named file like `-`, we have to access the file
 with full absolute system path. Otherwise `-` is usually considered as a normal
 argument and it will not be treated as a file.

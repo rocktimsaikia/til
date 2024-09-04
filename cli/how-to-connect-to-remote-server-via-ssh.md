@@ -1,4 +1,4 @@
-Here is how you connect to a remote server via SSH.
+# How you connect to a remote server via SSH?
 
 ```
 ssh <username>@<hostname> -p <port>
