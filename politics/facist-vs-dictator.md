@@ -15,3 +15,6 @@ ideologies (e.g., communism, military juntas, or even personal autocracies).
 In essence, **fascism** is a political ideology, while **dictatorship** refers to a type of leadership.
 A dictator can be a fascist, but not all dictators are fascists. Fascist regimes are generally led by dictators,
 but the term "dictator" applies more broadly to any absolute ruler.
+
+> [!NOTE]
+> The first fascist country was Italy, ruled by [Benito Mussolini](https://en.wikipedia.org/wiki/Benito_Mussolini)
