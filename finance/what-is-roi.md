@@ -37,9 +37,13 @@ Total Expenses: $90,000
 
 Now, lets calculate Net Profit and ROI:
 
-1. Net Profit = Total Revenue - Total Expenses = $120,000 - $90,000 = $30,000
+```
+Net Profit = Total Revenue - Total expenses
+           = $120,000 - $90,000 = $30,000
 
-2. ROI = (Net Profit / Cost of Investment) x 1000 = ($30,000/$50,000) x 100 = 60%
+ROI = (Net Profit / Cost of Investment) x 100
+    = ($30,000/$50,000) x 100 = 60%
+```
 
 Interpretation:
 
