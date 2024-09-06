@@ -32,7 +32,7 @@ Initial Investment: $50,000
 
 After one year of operation:
 
-Total Revenue: $120,000
+Total Revenue: $120,000 \
 Total Expenses: $90,000
 
 Now, lets calculate Net Profit and ROI:
