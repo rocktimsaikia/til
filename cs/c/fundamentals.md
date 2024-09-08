@@ -158,3 +158,18 @@ printf("%d", *ptr);
 > [!NOTE]
 > 1. When `*` is used in declaration (`int *ptr`), it creates a pointer variable.
 > 2. When not used in declaration, it acts as a **deference operator**.
+
+## Pointers and Array relation
+
+In C, the variable name of an array, is actually a pointer to the first element of the array.
+We can check this printing the memory address of the first element and the array variable itself.
+
+```c
+int numbers[4] = {12,35,45,60}
+
+// Memory address of the numbers array
+printf("%p", numbers)
+
+// Memory address of the first array element
+printf("%p", &numbers[0])
+```
