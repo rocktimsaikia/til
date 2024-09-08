@@ -14,7 +14,7 @@ int *reverse_list(const int *array, size_t length) {
 
 1. The function `*reverse_list` returns a "pointer to integer" denoted by the
 `int *`. Meaning the function will return a memory address where an integer or
-in case of arrays, the first of a series of integers) is stored.
+in case of arrays, the first of a series of integers is stored.
 
 2. In C, the return type comes before the function name or variable name.
 
@@ -33,9 +33,9 @@ can decide how much memory to allocate based on user input or other runtime fact
 4. `length * sizeof(int)`:
 Here are determine the size of the reversed array. `int` is typically 4 bytes on most
 modern systems, but it can vary. Using `sizeof(int)` instead of hard-coded value makes
-the code more portable and less error prone. By multiplying the size of int to `lneght`
+the code more portable and less error prone. By multiplying the size of int to `length`
 we get the total size to reserve for our array.
 
 5. The reason to use `size_t` for `i` is that we can be sure that `i` will be always
-unsigned/positive (`size` t is always unsigned) and there will no implicit type conversions since length is also
-an `size_t` type.
+unsigned/positive (`size_t` is always unsigned) and there will no implicit type conversions since length is also
+of `size_t` type.
