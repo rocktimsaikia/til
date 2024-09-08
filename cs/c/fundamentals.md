@@ -126,5 +126,35 @@ char fullname[20];
 strcpy(fullname, name);
 
 // Compare strings | returns 0 (true) or -4 (false)
-strcmp(name, fullname)
+strcmp(name, fullname);
 ```
+
+## Pointers
+
+We can get the memory address/location of a variable with the "reference operator `&`".
+This process is also called "Reference".
+
+```c
+int age = 43;
+
+printf("%d", age); // Outputs the value of age
+printf("%p", &age); // Outputs the memory address of age
+
+int *ptr = &age;
+printf("%p", ptr);
+```
+
+> [!NOTE]
+> A pointer variable simply stores the memory location of another variable.
+
+We can also get the actual value of a pointer variable by using the same `*` operator.
+This process is also known as "Dereference".
+
+```c
+// prints 43
+printf("%d", *ptr);
+```
+
+> [!NOTE]
+> 1. When `*` is used in declaration (`int *ptr`), it creates a pointer variable.
+> 2. When not used in declaration, it acts as a **deference operator**.
