@@ -163,13 +163,30 @@ printf("%d", *ptr);
 
 In C, the variable name of an array, is actually a pointer to the first element of the array.
 We can check this printing the memory address of the first element and the array variable itself.
+The result of the both print statements will return the same memory location.
 
 ```c
-int numbers[4] = {12,35,45,60}
+int numbers[4] = {12,35,45,60};
 
 // Memory address of the numbers array
-printf("%p", numbers)
+printf("%p", numbers);
 
 // Memory address of the first array element
-printf("%p", &numbers[0])
+printf("%p", &numbers[0]);
+```
+
+This means we can work with arrays through pointers. Since the `numbers` variable itself is
+a pointer to the first element in that array, we can use the `*` operator to access it:
+
+```c
+// Get the value of the first element in the array
+print("%d", *numbers);
+
+// Access rest of the elements by incrementing the pointer/array:
+// Get the value of the second element
+print("%d", *(numbers + 1));
+
+
+// Get the value of the third element
+print("%d", *(numbers + 2));
 ```
