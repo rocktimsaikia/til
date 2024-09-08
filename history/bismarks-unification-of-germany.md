@@ -32,7 +32,7 @@ Bismarck's unification consisted of three major wars:
 
 ### 3. The unified German Empire:
 
-The unified German Empire was established in 1871, uniting 16 states under
+The unified German Empire was established in 1871, uniting 26 states under
 Prussian leadership. "Blood and Iron (Blut und Eisen)" was Bismarck's famous phrase,
 emphasizing the use of military power in the unification of Germany.
 
