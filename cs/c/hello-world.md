@@ -12,4 +12,6 @@ int main(){
 ```
 
 ## Learnings:
-TODO
+1. In C, sting literals are usually declared as `const char*`.
+2. When printing a pointer, "%s" should be used to print a string value, instead of "%p"
+which prints the address of the pointer.
