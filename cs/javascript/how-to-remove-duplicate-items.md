@@ -1,6 +1,6 @@
 # How to remove duplicate items from an array in JS?
 
-```
+```js
 const arr = [1,2,2,1,3,4,5]
 
 // 1. Converting to array with spread operator `...`
